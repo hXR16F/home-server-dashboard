@@ -374,7 +374,7 @@ for device in devices.items():
 if zt_stalker_feature:
     with dpg.window(label="ZT Stalker Bot", width=300, pos=(320, 328), height=50, tag="zt_stalker_bot", no_resize=True, no_close=True, no_move=True, no_collapse=True):
         dpg.add_text("Users: 0", tag="zt_status_users")
-        dpg.add_text("Last update: 2023-03-23 22:26:10", tag="zt_status_last_update")
+        dpg.add_text("Last update: unknown", tag="zt_status_last_update")
         dpg.add_text("not running", color=color_red, tag="zt_status_running")
 
 
